@@ -1,15 +1,11 @@
 import React from 'react'
-import { BrowserRouter as Router} from 'react-router-dom'
+import {MainPage} from './pages/MainPage'
 import './App.css'
-import {useRoutes} from "./routes"
 
 function App() {
-  const routes = useRoutes()
 
   return (
-    <Router>
-      {routes}
-    </Router>
+    <MainPage />
   )
 }
 
